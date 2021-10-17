@@ -1,0 +1,17 @@
+{
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 10000,
+    "env": {
+        "baseUrl": "https://jsapps.cdtrfbgg54-sandvikab1-s1-public.model-t.cc.commerce.ondemand.com/de/en/"
+    },
+    "retries":{
+        "runMode": 1
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Dormar_Pramet",
+        "autoOpen": true
+      }
+}

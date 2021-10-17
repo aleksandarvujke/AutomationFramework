@@ -1,0 +1,11 @@
+{
+    "username": "aleksandar.vujetic@actumdigital.com",
+    "password": "Test123@",
+    "emptyUsername": "",
+    "emptyPassword": "",
+    "wrongUsername": "aleksandar.tesic@actumdigital.com",
+    "wrongPassword": "Test123",
+    "requiredFieldError": "This field is required",
+    "badCredentialsError": "Bad credentials. Please login again.",
+    "myAccountLabel": "My Account"
+}

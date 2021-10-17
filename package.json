@@ -1,0 +1,24 @@
+{
+  "name": "dormar_pramet",
+  "version": "1.0.0",
+  "description": "Automation test scripts for dormar pramet",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-failed-log": "^2.9.2",
+    "cypress-localstorage-commands": "^1.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "mailparser": "^3.3.3",
+    "nodemailer": "^6.6.5",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "cypress:runHeaded": "./node_modules/.bin/cypress run --headless",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:UI": "npm run cypress:runHeaded -- --spec \"cypress/integration/UI/*\"",
+    "cypress:API": "npm run cypress:runHeaded -- --spec \"cypress/integration/API/*\" --no-exit"
+  },
+  "author": "Aleksandar Vujetic",
+  "license": "ISC"
+}

@@ -1,0 +1,50 @@
+{
+    "title": "Register",
+    "gender": {
+        "mr": "mr",
+        "mrs": "mrs."
+    },
+    "firstName": {
+        "empty": "",
+        "valid": "Vujetic"
+    },
+    "lastName": {
+        "empty": "",
+        "valid": "Aleksandar"
+    },
+    "companyName": {
+        "empty": "",
+        "valid": "Dormar"
+    },
+    "countryName": "belarus",
+    "emptyEmailAddress": "",
+    "password": {
+        "empty": "",
+        "valid": "Test123!"
+    },
+    "confirmationPassword": {
+        "empty": "",
+        "valid": "Test123!"
+    },
+    "errorRequiredField": "This field is required",
+    "emailAddressValidationErrors": [
+        "This field is required",
+        "This is not a valid email format"
+    ],
+    "passwordValidationErrors": [
+        "This field is required",
+        "This is not a valid password format. Password must contain at least 6 characters, one upper case letter, one numeric character and one special character."
+    ],
+    "errorField": {
+        "firstName": "error_FirstName",
+        "lastName": "error_LastName",
+        "companyName": "error_CompanyName",
+        "countryName": "error_CountryName",
+        "emailAddress": "error_EmailAddress",
+        "password": "error_Password",
+        "confirmPassword": "error_ConfirmPassword"
+    },
+    "separatorMark": "\n",
+    "emptySelectCountryField": null,
+    "successMessage": "Thank you for submitting a register request, we will get back to you shortly."
+}
